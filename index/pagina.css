@@ -1,0 +1,86 @@
+.body {
+     background: url('fondo.jpg') fixed no-repeat; 
+} 
+
+.h1{
+    font-style: oblique;
+    font-size: 15px;
+    color: #CC3608;
+}
+
+
+.h2{
+    font-style: oblique;
+    font-size: 20px;
+    color: #CC3608;
+}
+
+.h3 {
+    font-size: 17px; 
+    color: #CC3608;
+
+}
+
+.cabecera {
+    width: auto;
+    height: auto;
+    text-align:center;
+    margin: auto
+    
+}
+
+.derecha{
+    
+    float: left;
+    text-align:justify;
+    width: 25%;
+    font-family: cursive;
+    font-size: 20;
+}
+
+.capacentro{
+
+    float: left;
+    text-align: center;
+    width: 35%;
+    font-family: cursive;
+    font-size: 20;
+}
+
+.izquierda{
+
+    float: left;
+    text-align: center;
+    width: 35%;
+    font-family: cursive;
+    font-size: 20;
+}
+
+.pie{
+
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20;
+    width: 89%;
+}
+
+.tabla{
+    width: 15%;
+    
+}
+
+.listas {
+    float: left;
+    text-align: left;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+
+}
+
+.mapa {
+    align-content: center;
+    height: 50px;
+    width: 50px;
+}
