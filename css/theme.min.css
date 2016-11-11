@@ -1,0 +1,647 @@
+body,h2 { /*Cuerpo y nombmres de cada una de las secciones*/
+    position:relative /*Posición relativa*/
+}
+
+.container-fluid,body { /*Todas las secciones*/
+    padding:0 /*Sin relleno*/
+}
+.lines::after,.lines::before,h2::before { /*Lineas del boton desplegable del menu*/
+    content:''; /*Contenido vacío*/
+    left: 0 /*Ponemos las rayas de arriba ajustadas*/
+}
+.hire-background,.image-title,.nav,.popup-content h3,.skills-background,.social a { /*Seccion de descargar el CV, imagenes del portfolio, menu, titulos de los proyectos, seccion de Habilidades de Software e iconos de las rrss*/
+    text-align:center /*Texto centrado*/
+}
+.info li,.nav li,.resume-box li,.social li { /*Iconos de la seccion de Contacto, Secciones del menu, iconos de rrss*/
+    list-style-type:none /*Sin enumerar listas*/
+}
+.submit-style:focus,.toggle-btn:focus,input:focus,textarea:focus { /*Cuando se pulsa*/
+    outline:0
+}
+body,html { /*Todo el documento*/
+    height:100% /*Altura completa*/
+}
+body { /*Cuerpo*/
+     /*No mostrar cualquier contenido del cuerpo que se salga de las dimensiones especificadas*/
+/*    background:#fff;*/ /*Color de fondo*/
+    /*Sin margen*/
+/*    color: #464646;*/
+    font: 500 13px/20px 'Century Gothic',sans-serif /*Grosor de fuente, tamaño, espacio entre lineas y tipografia*/
+}
+.nav li,h1,h2,h3,h4 { /*Secciones del menu y encabezados*/
+    font-weight:600; /*Grosor de fuente*/
+}
+h1,h2,h3,h4 { /*Encabezados*/
+    color:#141414; /*Color*/
+    letter-spacing:1px /*Espacio entre letras*/
+}
+
+h1 { /*Mi nombre en el home*/
+    margin: 10px 0; /*Margen vertical y horizontal*/
+    font-size: 30px; /*Tamaño de fuente*/
+    letter-spacing: 2px /*Espacio entre letras*/
+}
+h2 { /*Nombres de las secciones*/
+    margin:0 0 45px; /*Margen superior, laterales e inferior*/
+    font-size:20px /*Tamaño de letra*/
+}
+h2::before { /*Lineas de debajo de cada nombre de seccion*/
+    position:absolute; /*Posicion absoluta*/
+    right:0px; /*Que llegue la linea hasta la derecha*/
+    bottom:-5px; /*QUe se ponga debajo del nombre de la seccion*/
+    background:rgb(26,160,133); /*Color*/
+    height: 2px /*Altura de la linea*/
+}
+h3,h4 { /*Nombres de los proyectos y puestos de trabajo/año/nombre de habilidades de software*/
+    margin:0 0 10px /*Margen superior, horizontales e inferior*/
+}
+h3 {/*Nombres de los proyectos*/
+    font-size:16px /*Tamaño de fuente*/
+}
+h4 { /*Puestos de trabajo, año, nombres de habilidades de software...*/
+    font-size:13px /*Tamaño de fuente*/
+}
+.lines,.row,p { /*Lineas del boton desplegable del menu, filas y parrafos*/
+    margin: 0 /*Sin margen*/
+}
+.section-background { /*Secciones*/
+    background: #fff; /*Color*/
+    padding: 80px 60px; /*Rellenos verticales y horizontales*/    
+}
+.formulario { /*Seccion de contacto*/
+    background: #fff; /*Color*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.home-box,.lines,.nav li a,.social ul { /*Home, lineas de boton desplegable del menu e iconos de rrss*/
+    padding: 0 /*Sin relleno*/
+}
+.white-layer { /*Capa blanca del fondo de la descarga del CV y de Clientes*/
+    background: rgba(255,255,255,.9); /*Color*/
+    width: 100%; /*Ancho*/
+    height: 100% /*Alto*/
+}
+.green-layer { /*Capa negra del fondo de Habilidades de software y Detalles*/
+    background: rgba(26,160,133,.5); /*Color*/
+    width: 100%; /*Ancho*/
+    height: 100% /*Alto*/
+}
+.col-right a,.hire-background a,.lines::after,.lines::before,.social a,.submit-style,.toggle-btn { /*Enlaces */
+    -webkit-transition:linear .2s; /*Transicíon de efectos linear*/
+    -moz-transition:linear .2s; /*Transicíon de efectos linear*/
+    -o-transition:linear .2s; /*Transicíon de efectos linear*/
+    transition:linear .2s /*Transicíon de efectos linear*/
+}
+.image-title a,.menu,input,textarea { /*Efectos de los circulos de Habilidades de Software y del formulario de contacto */
+    -webkit-transition:ease-out .2s; /*Transicíon de efectos ease-out*/
+    -moz-transition:ease-out .2s; /*Transicíon de efectos ease-out*/
+    -o-transition:ease-out .2s; /*Transicíon de efectos ease-out*/
+    transition:ease-out .2s /*Transicíon de efectos ease-out*/
+}
+.image-layer,.image-title { /*Titulos de los proyectos*/
+    -webkit-transition:ease-out .3s; /*Transicíon de efectos ease-out*/
+    -moz-transition:ease-out .3s; /*Transicíon de efectos ease-out*/
+    -o-transition:ease-out .3s; /*Transicíon de efectos ease-out*/
+    transition:ease-out .3s /*Transicíon de efectos ease-out*/
+}
+.portfolio-content .owl-theme .owl-controls,.social { /*Centrar los iconos de rrss del Home*/
+    -webkit-transform:translate(-50%,0); /*Se mueve 50 pixeles a la izquierda*/
+    -moz-transform:translate(-50%,0); /*Se mueve 50 pixeles a la izquierda*/
+    -ms-transform:translate(-50%,0); /*Se mueve 50 pixeles a la izquierda*/
+    -o-transform:translate(-50%,0); /*Se mueve 50 pixeles a la izquierda*/
+    transform:translate(-50%,0) /*Se mueve 50 pixeles a la izquierda*/
+}
+.home-box img,.info i,.service-box div:first-child,.testimonial-box img { /*Fotografias*/
+    -webkit-border-radius: 50%; /*Circulares*/
+    -moz-border-radius: 50%; /*Circulares*/
+    -ms-border-radius: 50%; /*Circulares*/
+    -o-border-radius: 50%; /*Circulares*/
+    border-radius: 50% /*Circulares*/
+}
+
+
+/*----- BOTON DESPLEGABLE DEL MENU -----*/
+
+.toggle-btn { /*Boton desplegable del menu*/
+    position:fixed; /*Posicion fija*/
+    z-index:999; /*Que sea siempre visible*/
+    top:0; /*Colocado arriba*/
+    right:0; /*Colocado todo a la derecha*/
+    background: none; /*Color del fondo del boton*/ 
+    width:60px; /*Ancho*/
+    height:60px; /*Alto*/
+    margin:0; /*Sin margen*/
+    padding:0; /*Sin relleno*/
+    border:none; /*Sin borde*/
+    line-height:60px /*Altura del boton*/
+}
+.lines,.lines::after,.lines::before { /*Lineas del boton desplegable*/
+    background: black; /*Colores de las rayas*/
+    width: 20px; /*Anchura*/
+    height: 2px; /*Altura*/
+    display: inline-block /*MOstrar las lineas unas debajo de otras*/
+}
+.lines { /*Linea del boton desplegable del menu*/
+    position: relative; /*Posicion relativa*/
+    vertical-align: middle /*Alineacion vertical al medio con respecto al fondo blanco cuando se pulsa*/
+}
+.lines::after,.lines::before { /*Linea de arriba y abajo del boton desplegable del menu*/
+    position:absolute /*Posicion absoluta*/
+}
+.fill,.home-background .container-fluid,.home-background .row,.home-box { /*Sección de Home*/
+    height:100% /*Home de pantalla completa*/
+}
+.lines::before { /*Linea de abajo del boton desplegable*/
+    top: 5px /*Distancia con las otras líneas*/
+}
+.lines::after { /*Linea de arriba del boton desplegable*/
+    top:-5px /*Distancia con las otras líneas*/
+}
+.toggle-close,.toggle-close .lines { /*Boton X del menu*/
+    background: 0  /*Sin fondo*/
+}
+
+/*----- BOTON X DEL MENU -----*/
+
+.toggle-close .lines::after,.toggle-close .lines::before { /*Boton X del menu*/
+    top: 0;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+.toggle-close .lines::before { /*Boton X del menu*/
+    -webkit-transform: rotate3d(0,0,1,45deg);
+    transform:rotate3d(0,0,1,45deg)
+}
+.toggle-close .lines::after { /*Boton X del menu*/
+    -webkit-transform: rotate3d(0,0,1,-45deg);
+    transform:rotate3d(0,0,1,-45deg)
+}
+
+/*----- MENU -----*/
+
+.menu { /*Menú*/
+    position:fixed; /*Posicion fija*/
+    top:0; /*Todo arriba*/
+    left:0; /*Todo a la izquierda*/
+    z-index:998; /*Siempre visible*/
+    background:rgba(255,255,255,.9); /*Color*/
+    width: 100%; /*Ancho*/
+    -webkit-transform:translateY(-100%); /*Fuera de la pantalla hasta que se pulse*/
+    -moz-transform:translateY(-100%); /*Fuera de la pantalla hasta que se pulse*/
+    -ms-transform:translateY(-100%); /*Fuera de la pantalla hasta que se pulse*/
+    transform:translateY(-100%) /*Fuera de la pantalla hasta que se pulse*/
+}
+.show-menu { /*Mostrar el menu*/
+    -webkit-transform:translateY(0); /*Al pulsar que aparezca en pantalla*/
+    -moz-transform:translateY(0); /*Al pulsar que aparezca en pantalla*/
+    -ms-transform:translateY(0); /*Al pulsar que aparezca en pantalla*/
+    transform:translateY(0) /*Al pulsar que aparezca en pantalla*/
+}
+.nav li { /*Secciones del menu*/
+    line-height:20px;
+    letter-spacing:1px
+}
+.nav li a { /*Secciones del menu*/
+    position:relative;
+    color: rgba(135,135,135,.8)
+}
+.nav li a:hover { /*Secciones del menu al pasar el raton por encima*/
+    color: rgb(26,160,133) !important; /*Color*/
+    background-color: none !important;
+}
+/*.nav li a:focus,.nav li a:hover { 
+    background:0 0
+    color: rgb(26,160,133); 
+}*/
+
+/* ----- HOME----- */
+
+.fill { /*Home*/
+    min-height:100% /*Altura minima del 100%*/
+}
+.home-background { /*Fondo del home*/
+    position:relative; /*Fondo del home*/
+    top:0; /*Que empiece arriba del todo*/
+    left:0; /*Que empiece a la izquierda del todo*/
+    background:url(../images/fondo-blanco.jpg) top center no-repeat fixed; /*Imagen del fondo del home*/
+    -webkit-background-size:cover; /*Para que se escale la imagen*/
+    -moz-background-size:cover; /*Para que se escale la imagen*/
+    -ms-background-size:cover; /*Para que se escale la imagen*/
+    -o-background-size:cover; /*Para que se escale la imagen*/
+    background-size:cover; /*Para que se escale la imagen*/
+    width:100%; /*Ancho completo*/
+    height:100% /*Al tura completa*/
+}
+
+.home-box div:first-child { /*Caja del Home con imagen, nombre y puesto*/
+    position:relative; /*Centrarlo*/
+    top:50%; /*Centrarlo al centro)*/
+    -webkit-transform:translate(0,-50%);
+    -moz-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    transform:translate(0,-50%);
+    text-align:center /*Centrar texto*/
+}
+.home-box img { /*Imagen del home*/
+    width:240px; /*Anchura*/
+    height:240px; /*Altura*/
+    border:2px solid rgb(26,160,133) /*Borde*/
+}
+.home-background h1 { /*Mi nombre en el Home*/
+    margin-top:20px; /*Margen superior*/
+    color: black /*Color*/
+}
+.home-background p { /*Puesto en el home*/
+    color: rgba(135,135,135,.6); /*Color*/
+    font-weight: 600; /*Grosor de letras*/ 
+    letter-spacing: 1px; /*Espacio entre letras*/
+    text-transform: uppercase /*Todo mayusculas*/
+}
+
+.home-background p .ampersand { /*El & del los puestos*/
+    color: rgb(26,160,133); /*Color*/
+    font-weight: bold;
+}
+
+
+/*----- ICONOS DE RRSS DEL HOME -----*/
+
+.social { /*Iconos de RRSS del Home*/
+    position:absolute; /*Posición, al ser absoluta viene fijada por las posiciones siguientes*/
+    bottom:60px; /*Distancia del bottom*/
+    left:50% /*Distancia de la izquierda*/
+}
+.social li { /*Iconos de redes sociales del Home*/
+    display:inline-block; /*Ponerlo todo en una´linea*/
+    padding-right:10px /*Distancia entre iconos*/
+}
+/*.resume-box,.social li:last-child { 
+    padding:0
+}*/
+.social a { /*Iconos de redes sociales cuando no se ha pulsado*/
+    position: relative; /*Posicion relativa*/
+    display: block; /*Todo vaya dentro de un bloque*/
+    width: 30px; /*Ancho*/
+    height: 30px; /*Alto*/
+    color:rgba(135,135,135,.6)
+}
+.social i { /*Líneas de iconos de RRSS*/
+    font-size: 14px;
+}
+/*.social a:last-child {
+    margin:0
+}*/
+.social a:hover { /*Iconos de redes sociales cuando se mantiene el ratón por encima*/
+    color:rgb(26,160,133);
+    border-bottom: 1px solid rgb(26,160,133); /*linea del boton*/
+}
+
+
+/*----- EDUCACION ------*/
+
+.resume-box li {
+    margin-bottom:20px
+}
+.resume-box li:last-child {
+    margin:0
+}
+.resume-box h4 {
+    margin-top:0
+}
+.resume-box span {
+    color:rgb(26,160,133);
+    font-weight:600;
+}
+.resume-box span .ampersand{
+    color: rgb(26,160,133) !important
+}
+.box-content {
+    padding:10px 0
+}
+.skills-background {
+    background:url(../images/social-media-manager.jpg) no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+}
+.skill-bar input[type=text] {
+    font:300 20px "Century Gothic",sans-serif;
+    letter-spacing:1px
+}
+.skill-bar h4 {
+    margin:10px 0;
+    color:#fff;
+    font-weight:400
+}
+.hire-background a,.hire-background p {
+    font-weight:600;
+    letter-spacing:1px;
+}
+.hire-background {
+    background:url(../images/fondo-pequeno.jpg) no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    padding:0
+}
+.hire-background p {
+    margin-bottom:20px;
+    color:rgba(135,135,135,.6);
+    font-size:14px;
+    width: 80%;
+    margin: 0 auto;
+}
+.hire-background a {
+    margin-top: 30px;
+    display:inline-block;
+    background: rgb(26,160,133);
+    padding:15px 30px;
+    color:#fff;
+    font-size:12px
+}
+.hire-background a:hover {
+    background: rgb(15,178,139);
+    text-decoration:none
+}
+.testimonial-box p {
+    position:relative
+}
+.service-box {
+    margin-bottom:40px;
+    text-align:left
+}
+.service-box:last-child {
+    margin:0
+}
+.service-box div:first-child {
+    float:left;
+    width:50px;
+    height:50px;
+    border:1px solid rgb(26,160,133);
+    text-align:center
+}
+.service-box div:last-child {
+    padding-left:70px
+}
+.service-box h4 {
+    margin-top:0
+}
+.service-box i {
+    color:rgb(26,160,133);
+    font-size:18px;
+    line-height:50px
+}
+.facts-background {
+    background:url(../images/diseno-web.jpg) no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    text-align:center;
+    padding:0
+}
+.fact-box {
+    padding:10px 20px;
+    border-right:1px solid #fff
+}
+.fact-box:last-child {
+    border:none
+}
+.fact-box p {
+    color:#fff;
+    font-size:24px;
+    font-weight:300;
+    letter-spacing:1px
+}
+.fact-box h4 {
+    margin:10px 0 0;
+    color:#fff;
+    font-weight:400
+}
+.testimonial-box {
+    margin-bottom:40px
+}
+.testimonial-box:last-child {
+    margin:0
+}
+.testimonial-box img {
+    width:100px;
+    height:100px
+}
+.testimonial-box p::after,.testimonial-box p::before {
+    position:absolute;
+    color:#dcdcdc;
+    font-family:FontAwesome;
+    font-size:13px
+}
+.testimonial-box p::before {
+    content:"\f10d";
+    top:0;
+    left:-22px
+}
+.testimonial-box p::after {
+    content:"\f10e";
+    right:0;
+    bottom:0;
+    line-height:13px
+}
+.testimonial-box span {
+    color:rgb(26,160,133);
+    font-weight:400;
+    font-style:italic
+}
+.info i,.info li {
+    height:36px;
+    line-height:36px
+}
+.testimonial-box h4 {
+    margin-top:10px
+}
+.clients-background {
+    background:url(../images/fondo-pequeno.jpg) no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    text-align:center;
+    padding:0
+}
+.client-box {
+    display:inline-block;
+    padding:0 20px
+}
+.client-box img {
+    width:100%
+}
+.clients-background .owl-theme .owl-controls .owl-buttons div,.clients-background .owl-theme .owl-controls .owl-page span {
+    background:#141414
+}
+.info {
+    margin:0;
+    padding:0 0 30px
+}
+.info li {
+    margin-bottom:10px;
+    font-weight:400
+}
+.input-style,.text-style {
+    margin-bottom:20px
+}
+.info i {
+    float:left;
+    width:36px;
+    margin-right:10px;
+    border:1px solid rgb(26,160,133);
+    color:rgb(26,160,133);
+    font-size:13px;
+    text-align:center
+}
+.input-style input,.submit-result,.text-style textarea {
+    width:100%
+}
+.text-style {
+    width:100%
+}
+input,textarea {
+    background:#f0f0f0;
+    padding:15px;
+    border-top:none;
+    border-right:none;
+    border-bottom:1px solid #f0f0f0;
+    border-left:none
+}
+textarea {
+    height:150px
+}
+.submit-style {
+    display:inline-block;
+    background:rgb(26,160,133);
+    padding:15px 30px;
+    border:none;
+    color:#fff;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase
+}
+#error,#success {
+    display:none;
+    padding-top:20px
+}
+.submit-style:hover {
+    background:rgb(15,178,139);
+    color:#fff;
+    text-decoration:none
+}
+#success {
+    color:rgb(26,160,133)
+}
+#error {
+    color:red
+}
+.footer-background {
+    background:rgb(26,160,133);
+    padding:40px;
+    color:#fff
+}
+.footer-background a {
+    color:#fff
+}
+.col-left {
+    padding:0;
+    text-align:left
+}
+.col-left i {
+    padding:3px
+}
+.col-right {
+    padding:0;
+    text-align:right
+}
+.col-right a {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin-right:10px;
+    color:rgba(255,255,255,.8);
+    text-align:center
+}
+.col-right a:last-child {
+    margin:0
+}
+.col-right i {
+    font-size:14px
+}
+.col-right a:hover {
+    color:#fff;
+    text-decoration: none
+}
+
+
+
+/* ----- PORTFOLIO -----*/
+.section-padding{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+#Container .mix{
+    display: none;
+}
+.page-title{
+    padding-bottom: 30px;
+    text-align: left !important
+}
+.fil-btn
+{
+    margin-bottom: 30px;
+}
+.filter
+{
+    background-color: #B4B4B4;
+    color: #fff;
+    padding: 15px 30px;
+    font-size:12px;
+    font-weight:600;
+    display: inline-block;
+    position: relative;
+    letter-spacing:1px;
+}
+.filimg
+{
+    margin-bottom: 30px;
+}
+.fil-btn .active
+{
+    background-color: rgb(26,160,133);
+}
+.proyecto-cliente{
+    color: rgb(26,160,133);
+    font-weight: bold;
+    margin: 5px;
+}
+figure img{
+    opacity:0.6;
+}
+figure img:hover {
+opacity: 100;
+transition: all 0.3s linear;
+}
+/* ----- FIN PORTFOLIO -----*/
+
+
+
+
+
+
+font-style: oblique;
