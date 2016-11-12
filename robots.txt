@@ -1,6 +1,0 @@
-﻿User-agent: *
-Allow: /css/
-Allow: /documents/
-Allow: /images/
-Allow: /js/
-Sitemap: http://.sitemap.xml
