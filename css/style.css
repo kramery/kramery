@@ -932,6 +932,11 @@ ul li {
 
 .about-me .profile-image h2 span {
   display: block;
+  
+}
+
+#espaciado {
+    LINE-HEIGHT: 80px;
 }
 
 
